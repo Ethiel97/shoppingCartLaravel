@@ -117,7 +117,7 @@
       addToCart(product) {
         this.$store.commit('ADD_TO_CART', product)
       },
-      removeFromCart(product,) {
+      removeFromCart(product) {
         this.$store.commit('REMOVE_FROM_CART', product)
       }
     },
