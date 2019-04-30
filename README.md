@@ -7,10 +7,11 @@ Make sure you have `npm` and `yarn` on your local machine
 
 1.  Clone this repository and cd into it
 2.  Run `yarn` or `npm install` to download dependencies listed in `package.json`
+3. Run `composer install` to install Laravel as well all its dependencies
 4.  Set up your database in your `.env` file and run php `php artisan migrate` 
 and export the [products table](https://drive.google.com/file/d/183qhkcqYxsqWnb2CX2JrZMJUZwbmK7NE/view?usp=sharing)
-3.  Execute `npm run dev` to build project assets
-4.  Execute `php artisan serve` to run the project in your browser
+5.  Execute `npm run dev` to build project assets
+6.  Execute `php artisan serve` to run the project in your browser
 
 ### Prerequisites
 Having following tools is very helpful
